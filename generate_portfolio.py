@@ -1,40 +1,44 @@
 import json
-from datetime import UTC, datetime
+from datetime import datetime, UTC
 from pathlib import Path
-
 from jinja2 import Environment, FileSystemLoader
 
+# Get the directory of the script
+PROJECT_DIR = Path(__file__).parent
+
 # Load JSON data
-with Path("portfolio.json").open(encoding="utf-8") as f:
+json_path = PROJECT_DIR / "portfolio.json"
+if not json_path.exists():
+    raise FileNotFoundError(f"Could not find portfolio.json in {PROJECT_DIR}")
+
+with json_path.open(encoding="utf-8") as f:
     data = json.load(f)
 
 # Add any extra context if needed
 data["current_year"] = datetime.now(tz=UTC).year
 
+# Load SVG files if applicable
 if "social_links" in data:
     for link in data["social_links"]:
-        if link.get("svg_path"):
-            with Path(link["svg_path"]).open(encoding="utf-8") as svg_file:
-                link["svg_data"] = svg_file.read()
+        if "svg_path" in link:
+            svg_file_path = PROJECT_DIR / link["svg_path"]
+            if svg_file_path.exists():
+                with svg_file_path.open(encoding="utf-8") as svg_file:
+                    link["svg_data"] = svg_file.read()
+            else:
+                print(f"Warning: SVG file {svg_file_path} not found.")
 
 # Set up Jinja environment
-env = Environment(loader=FileSystemLoader("."), autoescape=True)
+env = Environment(loader=FileSystemLoader(PROJECT_DIR), autoescape=True)
 index_template = env.get_template("index_template.html")
 resume_template = env.get_template("resume_template.html")
 
-# Render the template with the data
+# Render the templates with data
 html_output = index_template.render(**data)
 resume_output = resume_template.render(**data)
 
-# This is equivalent to...
-# html_output = index_template.render(name=data["name"], label=data["label"]...)
-# resume_output = resume_template.render(name=data["name"], label=data["label"]...)
+# Write output files
+(Path(PROJECT_DIR) / "index.html").write_text(html_output, encoding="utf-8")
+(Path(PROJECT_DIR) / "resume.html").write_text(resume_output, encoding="utf-8")
 
-# Write the output to an HTML file
-with Path("index.html").open("w", encoding="utf-8") as f:
-    f.write(html_output)
-
-with Path("resume.html").open("w", encoding="utf-8") as f:
-    f.write(resume_output)
-
-print("HTML file generated successfully!")
+print("Portfolio generated successfully!")
