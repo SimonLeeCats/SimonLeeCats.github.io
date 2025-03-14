@@ -3,15 +3,15 @@
   "label": "Cats and Shoegaze",
   "image_path": "img/default-image.png",
   "contact": {
-    "email": "FirstLast@Sample.com",
-    "phone": "123-456-7890",
-    "location": "City, State, Country"
+    "email": "theevilseal32@gmail.com",
+    "phone": "TESTTT",
+    "location": "Test"
   },
-  "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
+  "summary": "",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
-      "label": "Personal Website",
+      "label": "Test",
       "url": "https://sample.com",
       "svg_path": "img/globe.svg"
     },
@@ -28,7 +28,7 @@
   ],
   "work_experience": [
     {
-      "company": "Latest Job",
+      "company": "Test",
       "position": "Position One",
       "url": "https://sample.com",
       "start_date": "01/01/2020",
