@@ -1,73 +1,58 @@
 {
   "name": "Simon Lee",
   "label": "Cats and Shoegaze",
-  "image_path": "img/default-image.png",
+  "image_path": "img/Usagi.jpg",
   "contact": {
     "email": "theevilseal32@gmail.com",
-    "phone": "TESTTT",
-    "location": "Test"
+    "phone": "",
+    "location": "LA"
   },
-  "summary": "",
+  "summary": "Hi there! My name is Simon and I'm currently studying Cyber Operations.",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
-      "label": "Test",
-      "url": "https://sample.com",
+      "label": "Personal Website",
+      "url": "https://simonleecats.github.io/",
       "svg_path": "img/globe.svg"
     },
     {
-      "label": "First Social",
-      "url": "https://sample.com",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/simon-lee-b918a5283/",
       "svg_path": "img/linkedin.svg"
     },
     {
-      "label": "Second Social",
-      "url": "https://sample.com",
+      "label": "GitHub",
+      "url": "https://github.com/SimonLeeCats",
       "svg_path": "img/github.svg"
     }
   ],
   "work_experience": [
     {
-      "company": "Test",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
+      "company": "Kumon",
+      "position": "Assistant Center Instructor",
+      "url": "",
+      "start_date": "07/24",
       "end_date": "Present",
-      "summary": "Short summary about present job and what the position entails",
-      "highlights": [
-        "First Duty of Current Job",
-        "Second Duty of Current Job",
-        "Third Duty of Current Job"
-      ]
+      "summary": "Prepare and prep material for 40+ kids a day."
     },
     {
-      "company": "Previous Job",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous job and what that position entailed",
-      "highlights": [
-        "First Duty of Previous Job",
-        "Second Duty of Previous Job",
-        "Third Duty of Previous Job"
-      ]
+      "company": "Cybersecurity Student",
+      "position": "Student",
+      "summary": "Currently studying for the CCNA and learning using TryHackMe Labs."
     }
   ],
   "projects": [
     {
-      "title": "My First Project",
-      "summary": "Short summary about my first project",
-      "url": "https://sample.com",
+      "title": "Setting up a SIEM with ELK",
+      "summary": "Created and set up a SIEM with unique rules.",
       "highlights": [
-        "First Highlight of Project One",
-        "Second Highlight of Project One",
-        "Third Highlight of Project One"
+        "Learned the fundamentals of the workstation.",
+        "Using VMware Oracle Box."
       ],
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=1",
-          "caption": "Image Caption 1"
+          "img_path": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Vmware_workstation_16_icon.svg/800px-Vmware_workstation_16_icon.svg.png",
+          "caption": "VMware"
         },
         {
           "img_path": "https://picsum.photos/600/338?random=2",
@@ -81,7 +66,7 @@
     },
     {
       "title": "My Second Project",
-      "summary": "Short summary about my second project",
+      "summary": "Short summary about my second project.",
       "url": "https://sample.com",
       "highlights": [
         "First Highlight of Project Two",
@@ -111,7 +96,7 @@
       "url": "https://sample.com",
       "start_date": "01/01/2020",
       "end_date": "Present",
-      "summary": "Short summary about present volunteer work",
+      "summary": "Short summary about present volunteer work.",
       "highlights": [
         "First Duty of Current Organization",
         "Second Duty of Current Organization",
@@ -124,7 +109,7 @@
       "url": "https://sample.com",
       "start_date": "01/01/2010",
       "end_date": "01/01/2020",
-      "summary": "Short summary about previous volunteer work",
+      "summary": "Short summary about previous volunteer work.",
       "highlights": [
         "First Duty of Previous Organization",
         "Second Duty of Previous Organization",
@@ -172,7 +157,7 @@
   "interests": [
     {
       "name": "My First Hobby",
-      "summary": "Short summary about my first Hobby",
+      "summary": "Short summary about my first hobby.",
       "images": [
         {
           "img_path": "https://picsum.photos/600/338?random=7",
@@ -186,7 +171,7 @@
     },
     {
       "name": "My Second Hobby",
-      "summary": "Short summary about my second hobby",
+      "summary": "Short summary about my second hobby.",
       "images": [
         {
           "img_path": "https://picsum.photos/600/338?random=9",
