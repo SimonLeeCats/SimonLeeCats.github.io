@@ -39,4 +39,9 @@
 
 ## What is Cybersecurity?
 
-* [What is Reverse Engineering?](what-is-cybersecurity/what-is-reverse-engineering.md)
+* [What is Reverse Engineering?](what-is-cybersecurity/what-is-reverse-engineering/README.md)
+  * [Learning Assembly](what-is-cybersecurity/what-is-reverse-engineering/learning-assembly.md)
+  * [Learning C](what-is-cybersecurity/what-is-reverse-engineering/learning-c.md)
+  * [Learning Disassemblers](what-is-cybersecurity/what-is-reverse-engineering/learning-disassemblers.md)
+  * [Learning Debuggers](what-is-cybersecurity/what-is-reverse-engineering/learning-debuggers.md)
+  * [Learning Decompilers](what-is-cybersecurity/what-is-reverse-engineering/learning-decompilers.md)
