@@ -45,3 +45,7 @@
   * [Learning Disassemblers](what-is-cybersecurity/what-is-reverse-engineering/learning-disassemblers.md)
   * [Learning Debuggers](what-is-cybersecurity/what-is-reverse-engineering/learning-debuggers.md)
   * [Learning Decompilers](what-is-cybersecurity/what-is-reverse-engineering/learning-decompilers.md)
+
+## What is Info Technology?
+
+* [What is MySQL?](what-is-info-technology/what-is-mysql.md)
