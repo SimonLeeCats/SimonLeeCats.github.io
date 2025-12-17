@@ -31,11 +31,11 @@
     * [Guess My Cheese (Medium)](ctf-writeups/picoctf-2025/cryptography/guess-my-cheese-medium.md)
     * [Ricochet (Hard)](ctf-writeups/picoctf-2025/cryptography/ricochet-hard.md)
   * [Reverse Engineering](ctf-writeups/picoctf-2025/reverse-engineering.md)
-  * [Binary Exploitation + Explanation](ctf-writeups/picoctf-2025/binary-exploitation-+-explanation/README.md)
-    * [PIE TIME (easy)](ctf-writeups/picoctf-2025/binary-exploitation-+-explanation/pie-time-easy.md)
+  * [Binary Exploitation](ctf-writeups/picoctf-2025/binary-exploitation/README.md)
+    * [PIE TIME (easy)](ctf-writeups/picoctf-2025/binary-exploitation/pie-time-easy.md)
   * [General Rules](ctf-writeups/picoctf-2025/general-rules/README.md)
     * [Rust fixme 1 (Easy)](ctf-writeups/picoctf-2025/general-rules/rust-fixme-1-easy.md)
-* [Page](ctf-writeups/page.md)
+* [Pagedwdw](ctf-writeups/pagedwdw.md)
 
 ## What is Cybersecurity?
 
