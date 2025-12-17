@@ -25,19 +25,28 @@ metaLinks:
 
 # Hello there,
 
-My name is Simon Lee and I'm a current Freshman attending USC for Intelligence and Cyber Operations.&#x20;
+
+
+**My name is Simon Lee. Nice to meet you!**
+
+_Freshman @ USC |  Intelligence and Cyber Operations_&#x20;
+
+<div align="center" data-full-width="true" data-with-frame="true"><figure><img src=".gitbook/assets/200w.gif" alt="" width="100"><figcaption></figcaption></figure></div>
+
+***
 
 ### CTF Write-ups&#x20;
 
-You'll see my cybersecurity projects/CTFs on the left of this home screen.&#x20;
+Find them on the left of this menu.&#x20;
+
+<a href="ctf-writeups/quickstart/" class="button primary">NCL CTFs</a>
 
 ### Cybersecurity/IT Projects
 
-You can find them by clicking the drop down box on the top left. Feel free to explore.
-
-Here are some notable ones:&#x20;
+Find them at the drop down box on the top left. Here are some notable ones:&#x20;
 
 {% embed url="https://simon-6.gitbook.io/simoncyber/cyber/untitled" %}
 
+### What is \_\_\_?
 
-
+While learning CTFs and doing stuff at work, I decided that since I was learning so much, I also wanted to write/blog it to keep it as a reference and to maybe help some future cyber students out!
