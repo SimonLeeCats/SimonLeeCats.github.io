@@ -32,6 +32,7 @@
     * [Ricochet (Hard)](ctf-writeups/picoctf-2025/cryptography/ricochet-hard.md)
   * [Reverse Engineering](ctf-writeups/picoctf-2025/reverse-engineering/README.md)
     * [Flag Hunter (Easy)](ctf-writeups/picoctf-2025/reverse-engineering/flag-hunter-easy.md)
+    * [Flag Hunters (Easy)](ctf-writeups/picoctf-2025/reverse-engineering/flag-hunters-easy.md)
   * [Binary Exploitation](ctf-writeups/picoctf-2025/binary-exploitation/README.md)
     * [PIE TIME (easy)](ctf-writeups/picoctf-2025/binary-exploitation/pie-time-easy.md)
   * [General Rules](ctf-writeups/picoctf-2025/general-rules/README.md)
@@ -48,4 +49,7 @@
 
 ## What is Info Technology?
 
-* [What is MySQL?](what-is-info-technology/what-is-mysql.md)
+* [What is MySQL?](what-is-info-technology/what-is-mysql/README.md)
+  * [Data Bases - Unique](what-is-info-technology/what-is-mysql/data-bases-unique.md)
+  * [Not Null - Unions](what-is-info-technology/what-is-mysql/not-null-unions.md)
+  * [Self Join - Triggers](what-is-info-technology/what-is-mysql/self-join-triggers.md)
