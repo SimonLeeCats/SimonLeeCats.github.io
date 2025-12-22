@@ -51,3 +51,4 @@
 
 * [What is MySQL?](what-is-info-technology/what-is-mysql/README.md)
   * [Introduction](what-is-info-technology/what-is-mysql/introduction.md)
+  * [Joins and More Queries](what-is-info-technology/what-is-mysql/joins-and-more-queries.md)
