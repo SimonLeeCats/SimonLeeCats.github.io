@@ -50,6 +50,4 @@
 ## What is Info Technology?
 
 * [What is MySQL?](what-is-info-technology/what-is-mysql/README.md)
-  * [Data Bases - Unique](what-is-info-technology/what-is-mysql/data-bases-unique.md)
-  * [Not Null - Unions](what-is-info-technology/what-is-mysql/not-null-unions.md)
-  * [Self Join - Triggers](what-is-info-technology/what-is-mysql/self-join-triggers.md)
+  * [Introduction](what-is-info-technology/what-is-mysql/introduction.md)

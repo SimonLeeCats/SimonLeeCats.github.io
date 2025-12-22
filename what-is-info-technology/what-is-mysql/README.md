@@ -2,9 +2,9 @@
 
 ### Context
 
-To preface this, the reason I'm learning MySQL is to apply to my work at IT. Also I believe generally, it's good to know how databases/servers work, especially if I'm going to configure a SQL server. Despite me mainly being a cyber guy, learning SQL has always been a little side language I've wanted to learn.&#x20;
+To preface this, the reason I'm learning MySQL is to apply to my work at IT. Also I believe generally, it's good to know how databases/servers work, especially if I'm going to configure a SQL server for SPSS licenses. Despite me mainly being a cyber guy, learning SQL has always been a little side language I've wanted to learn.&#x20;
 
-The purpose of this page is to explain and my learning of SQL. This page won't include the final project. That'll be in the upper left drop down menu.
+The purpose of this page is to explain and my learning of SQL, almost like taking notes. This page won't include the final project. That'll be in the upper left drop down menu.
 
 ***
 
