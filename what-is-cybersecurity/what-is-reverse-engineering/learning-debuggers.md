@@ -71,4 +71,35 @@ Example:
 (gdb) finish    # Complete the function and retur
 ```
 
-[https://medium.com/@saransivakumar89/a-beginners-guide-to-gdb-the-gnu-debugger-57bd6e01e9e4](https://medium.com/@saransivakumar89/a-beginners-guide-to-gdb-the-gnu-debugger-57bd6e01e9e4)
+***
+
+At each breakpoint you can quickly examine the code with the following commands.
+
+```
+print x           # Show value of variable x
+print result      # Show result
+print x + y       # Evaluate expressions
+info locals       # Show all local variables
+info proc map     # Processes's map address
+display var_name  # Display a variable continuously as execution progresses
+set var_name = new_value    # Modify a variable during execution:
+display/10i $pc - 0x5       # (gdb) display/[# of instructions]i $pc [± offset]
+
+list              # Show source code around current line
+list add          # Show source code of add() function
+disassemble       # Show assembly code for current function
+disassemble add   # Show assembly for add() function
+set 0x1e4a70=0x123: Sets the data at 0x1e4a70 to 0x123
+
+info registers         # Show all registers
+print $rax            # Show value in RAX register (x86-64)
+print $eip            # Instruction pointer (where we are)
+
+x/10x 0x7fffffffe000   # eXamine 10 heX values at address
+x/10i $rip             # Show 10 Instructions at current position
+x/s 0x400500           # Show String at address
+```
+
+### Cheatsheet
+
+{% embed url="https://docs.google.com/viewerng/viewer?url=https://www.chciken.com/assets/gdb_cheat_sheet/gdb_cheat_sheet_dark.pdf" %}
