@@ -53,4 +53,3 @@
   * [Introduction](what-is-info-technology/what-is-sql/introduction.md)
   * [Joins and More Queries](what-is-info-technology/what-is-sql/joins-and-more-queries.md)
   * [Adding Data](what-is-info-technology/what-is-sql/adding-data.md)
-  * [Page](what-is-info-technology/what-is-sql/page.md)

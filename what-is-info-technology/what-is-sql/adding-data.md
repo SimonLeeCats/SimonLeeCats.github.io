@@ -147,4 +147,4 @@ DROP TABLE IF EXISTS mytable;
 In addition, if you have another table that is dependent on columns in table you are removing (for example, with a `FOREIGN KEY` dependency) then you will have to either update all dependent tables first to remove the dependent rows or to remove those tables entirely.
 {% endhint %}
 
-And that'll be all of the lessons. See you in the exercises.
+And that'll be all of the lessons.&#x20;
