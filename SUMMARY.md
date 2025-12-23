@@ -49,6 +49,8 @@
 
 ## What is Info Technology?
 
-* [What is MySQL?](what-is-info-technology/what-is-mysql/README.md)
-  * [Introduction](what-is-info-technology/what-is-mysql/introduction.md)
-  * [Joins and More Queries](what-is-info-technology/what-is-mysql/joins-and-more-queries.md)
+* [What is SQL?](what-is-info-technology/what-is-sql/README.md)
+  * [Introduction](what-is-info-technology/what-is-sql/introduction.md)
+  * [Joins and More Queries](what-is-info-technology/what-is-sql/joins-and-more-queries.md)
+  * [Adding Data](what-is-info-technology/what-is-sql/adding-data.md)
+  * [Page](what-is-info-technology/what-is-sql/page.md)
