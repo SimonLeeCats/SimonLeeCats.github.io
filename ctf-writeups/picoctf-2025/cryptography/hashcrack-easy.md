@@ -20,7 +20,7 @@ hashcat -m 0 -a 0 (insert hash) /usr/share/wordlists/rockyou.txt
 
 Surprisingly, it didn't just end there, it gave us another hash! But same procedures. We check the hash type.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 And we plug it in hashcat (with a different hash mode this time)&#x20;
 
